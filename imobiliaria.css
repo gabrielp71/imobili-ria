@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+header {
+    padding: 25px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-header img {
+    width: 90px;
+    height: 90px;
+}
+
+.title-header h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.list-header ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.list-header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.section-01 {
+    padding: 200px;
+    background-image: url(imagens/casa02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.section-01 button {
+    width: 230px;
+    height: auto;
+    padding: 10px;
+    background-color: burlywood;
+    color: white;
+    border-radius: 7px;
+
+    border-color: transparent;
+}
+
+.caixa-01 {
+    text-align: center;
+    
+
+    
+}
+
+
+.caixa-01 img{
+    width: 100px;
+    height: 100px;
+}
+
+.caixa-01 p {
+    color: white;
+}
+    
+
+   
+
+
+
+.section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    padding: 160px;
+    background-color: burlywood;
+}
+
+.section-02 div {
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    padding: 10px;
+}
+
+.caixa-02 {
+    color:white;
+}
+
+
+
+.section-03 {
+    padding: 160px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.section-03 div img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.section-03 div p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.section-03 span {
+    color: burlywood;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.section-04 {
+    padding: 160px;
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+
+.section-04 iframe {
+    border-radius: 15px;
+}
+
+.section-04 p {
+    font-size: 30px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.377);
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
