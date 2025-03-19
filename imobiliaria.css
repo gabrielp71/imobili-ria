@@ -1,7 +1,9 @@
-* {
+* {  /*seletor universal aplicado no site todo*/
     margin: 0;
     padding: 0;
     list-style: none;
+    scroll-behavior: smooth; /*scroll suave nas transições*/
+    
 }
 
 
@@ -210,4 +212,8 @@ footer i {
     color:burlywood;
     font-size: 30px;
     
+}
+
+footer a {
+    color: white;
 }
