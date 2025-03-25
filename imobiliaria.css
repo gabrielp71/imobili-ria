@@ -40,6 +40,11 @@ header {
     color: white;
 }
 
+.list-header ul li a:hover {  /* mudando a cor da lista quando passar o mouse encima*/
+    color: burlywood;
+    transition: 0,8s;
+}
+
 
 
 
@@ -67,6 +72,11 @@ header {
     border-radius: 7px;
 
     border-color: transparent;
+} 
+
+.section-01 button:hover { /* mudando a cor do button quando passar o mouse encima*/
+    background-color: black;
+    transition: 0,8s;
 }
 
 .caixa-01 {
@@ -216,4 +226,17 @@ footer i {
 
 footer a {
     color: white;
+}
+
+
+footer p:hover {  /*mudando a cor quando passa o mouse*/
+    color: burlywood;
+}
+
+footer a:hover {  /*mudando a cor quando passa o mouse*/
+    color: burlywood;
+}
+
+footer h2:hover {   /*mudando a cor quando passa o mouse*/
+    color: burlywood;
 }
