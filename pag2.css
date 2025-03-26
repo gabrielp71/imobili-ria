@@ -27,6 +27,11 @@ header {
     color: white;
 }
 
+.title-header h1:hover {
+    color: burlywood;
+    transition: 0.8s;
+}
+
 .list-header ul {
     display: flex;
     justify-content: center;
@@ -39,19 +44,26 @@ header {
     color: white;
 }
 
+.list-header ul li a:hover {  /* mudando a cor da lista quando passar o mouse encima*/
+    color: burlywood;
+    transition: 0,8s;
+}
+
+
 
 
 
 .section-caixas {
-    background-color: aquamarine;
+    background-color: burlywood;
     padding: 160px;
+    
 }
 
 
 
 .casa2 {
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     color: white;
     background-color: black;
 }
@@ -99,4 +111,16 @@ footer i {
 
 footer a {
     color: white;
+}
+
+footer p:hover {  /*mudando a cor quando passa o mouse*/
+    color: burlywood;
+}
+
+footer a:hover {  /*mudando a cor quando passa o mouse*/
+    color: burlywood;
+}
+
+footer h2:hover {   /*mudando a cor quando passa o mouse*/
+    color: burlywood;
 }

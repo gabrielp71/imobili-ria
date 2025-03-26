@@ -28,6 +28,11 @@ header {
     color: white;
 }
 
+.title-header h1:hover {
+    color: burlywood;
+    transition: 0.8s;
+}
+
 .list-header ul {
     display: flex;
     justify-content: center;
@@ -45,6 +50,9 @@ header {
     transition: 0,8s;
 }
 
+.icon-user a {
+    color: burlywood;
+}
 
 
 
@@ -117,6 +125,15 @@ header {
     height: 350px;
     background-color: black;
     padding: 10px;
+    box-shadow: 10px 10px 20px black; /*sombra da caixa*/
+    
+}
+
+.section-02 div:hover {
+    box-shadow: 10px 10px 20px brown; /*sombra da caixa quando passar o mouse*/
+    transition: 0.8s; /*velocidade da trasição de cores*/
+
+
 }
 
 
@@ -125,6 +142,7 @@ header {
     background-image: url(imagens/mansao02.webp);
     background-repeat: no-repeat;
     background-size: cover;
+   
     
 }
 
@@ -146,6 +164,13 @@ header {
     width: 500px;
     height: 500px;
     border-radius: 10px;
+
+}
+
+.section-03 div img:hover {
+    box-shadow: 10px 10px 20px brown; /*sombra da caixa quando passar o mouse*/
+    transition: 0.8s; /*velocidade da trasição de cores*/
+
 }
 
 .section-03 div p {
@@ -239,4 +264,10 @@ footer a:hover {  /*mudando a cor quando passa o mouse*/
 
 footer h2:hover {   /*mudando a cor quando passa o mouse*/
     color: burlywood;
+}
+
+/*Google maps sombra*/
+.div-iframe:hover {
+box-shadow: 10px 10px 20px  brown ;
+transition: 0.8s;
 }
