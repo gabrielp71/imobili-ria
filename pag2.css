@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     scroll-behavior: smooth; /*scroll suave nas transições*/
+    
 }
 
 
@@ -49,44 +50,189 @@ header {
     transition: 0,8s;
 }
 
+.icon-user a {
+    color: burlywood;
+}
+
+
+.button {
+    background-image: url(imagens/casa.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+}
 
 
 
 
-.section-caixas {
+.casa 
+{
+    padding: 180px;
     background-color: burlywood;
-    padding: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: bottom;
+    
+}
+.h2 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+}
+
+.casa1:hover, .casa2:hover, .casa3:hover, .casa4:hover
+{
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+.casa h2 
+{
+    font-size: 40px;
+    font-family: "Playwrite HU", cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.casa1 
+{
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+.casa1 img {
+    width: 100%;
+    height: 50%;
     
 }
 
-
-
 .casa2 {
     width: 400px;
-    height: 500px;
-    color: white;
-    background-color: black;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+    margin-bottom: 60px;
+   
 }
-
 .casa2 img {
     width: 100%;
     height: 50%;
 }
 
-.casa3 {
-     width: 600px;
-     height: 600px;
-     
+.casa3{
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+    
+}
+.casa3 img {
+    width: 100%;
+    height: 50%;
 }
 
-
+.casa4 {
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+}
+.casa4 img {
+    width: 100%;
+    height: 50%;
+}
 .div-icon {
     display: flex;
     align-items: center;
     gap: 15px;
+    color: white;
 }
 
+.ap {
+    background-color:burlywood;
+    padding: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: bottom;
+    
+}
 
+.ap h2 
+{
+    font-size: 40px;
+    font-family: "Playwrite HU", cursive;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ap1:hover, .ap2:hover, .ap3:hover, .ap4:hover
+{
+    box-shadow: 20px 20px 30px black;
+    transition: 0.8s;
+}
+
+.ap1{
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ap1 h2{
+    font-size: 30px;
+}
+.ap1 img {
+    width: 100%;
+    height: 50%;
+}
+
+.ap2 {
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ap2 img {
+    width: 100%;
+    height: 50%;
+}
+.ap2 h2{
+    font-size: 30px;
+}
+.ap3{
+    width: 400px;
+    height: 700px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+}
+.ap3 img {
+    width: 100%;
+    height: 50%;
+}
+.ap3 h2{
+    font-size: 30px;
+}
+.ap4{
+    width: 400px;
+    height: 760px;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-radius: 20px;
+}
+.ap4 img {
+    width: 100%;
+    height: 50%;
+}
+
+.ap4 h2{
+    font-size: 30px;
+}
 
 footer {
     background-color: black;
@@ -113,6 +259,7 @@ footer a {
     color: white;
 }
 
+
 footer p:hover {  /*mudando a cor quando passa o mouse*/
     color: burlywood;
 }
@@ -123,4 +270,10 @@ footer a:hover {  /*mudando a cor quando passa o mouse*/
 
 footer h2:hover {   /*mudando a cor quando passa o mouse*/
     color: burlywood;
+}
+
+/*Google maps sombra*/
+.div-iframe:hover {
+box-shadow: 10px 10px 20px  brown ;
+transition: 0.8s;
 }
