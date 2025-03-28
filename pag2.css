@@ -1,9 +1,11 @@
-* {  /*seletor universal aplicado no site todo*/
+* {
+    /*seletor universal aplicado no site todo*/
     margin: 0;
     padding: 0;
     list-style: none;
-    scroll-behavior: smooth; /*scroll suave nas transições*/
-    
+    scroll-behavior: smooth;
+    /*scroll suave nas transições*/
+
 }
 
 
@@ -45,9 +47,10 @@ header {
     color: white;
 }
 
-.list-header ul li a:hover {  /* mudando a cor da lista quando passar o mouse encima*/
+.list-header ul li a:hover {
+    /* mudando a cor da lista quando passar o mouse encima*/
     color: burlywood;
-    transition: 0,8s;
+    transition: 0, 8s;
 }
 
 .icon-user a {
@@ -55,63 +58,61 @@ header {
 }
 
 
-.button {
-    background-image: url(imagens/casa.jpg);
-    padding: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-
-    display: flex;
-    justify-content: center;
-}
 
 
-
-
-.casa 
-{
+.casa {
     padding: 180px;
     background-color: burlywood;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: bottom;
-    
+    flex-direction: column;
+
 }
-.h2 
-{
+
+.h2 {
     display: flex;
     justify-content: center;
     flex-direction: center;
 }
 
-.casa1:hover, .casa2:hover, .casa3:hover, .casa4:hover
-{
+.casa1:hover,
+.casa2:hover,
+.casa3:hover,
+.casa4:hover {
     box-shadow: 20px 20px 30px black;
     transition: 0.8s;
 }
-.casa h2 
-{
+
+.casa h2 {
     font-size: 40px;
     font-family: "Playwrite HU", cursive;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.casa1 
-{
+.casa1 {
     width: 400px;
     height: 700px;
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
     margin-bottom: 60px;
 }
+
 .casa1 img {
     width: 100%;
     height: 50%;
-    
+
 }
+
+
+.cima, .baixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
 
 .casa2 {
     width: 400px;
@@ -119,20 +120,22 @@ header {
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
     margin-bottom: 60px;
-   
+
 }
+
 .casa2 img {
     width: 100%;
     height: 50%;
 }
 
-.casa3{
+.casa3 {
     width: 400px;
     height: 700px;
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
-    
+
 }
+
 .casa3 img {
     width: 100%;
     height: 50%;
@@ -144,10 +147,12 @@ header {
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
 }
+
 .casa4 img {
     width: 100%;
     height: 50%;
 }
+
 .div-icon {
     display: flex;
     align-items: center;
@@ -156,37 +161,41 @@ header {
 }
 
 .ap {
-    background-color:burlywood;
+    background-color: burlywood;
     padding: 180px;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: bottom;
-    
+    flex-direction: column;
+
 }
 
-.ap h2 
-{
+.ap h2 {
     font-size: 40px;
     font-family: "Playwrite HU", cursive;
     text-align: center;
     margin-bottom: 30px;
 }
-.ap1:hover, .ap2:hover, .ap3:hover, .ap4:hover
-{
+
+.ap1:hover,
+.ap2:hover,
+.ap3:hover,
+.ap4:hover {
     box-shadow: 20px 20px 30px black;
     transition: 0.8s;
 }
 
-.ap1{
+.ap1 {
     width: 400px;
     height: 700px;
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
     margin-bottom: 20px;
 }
-.ap1 h2{
+
+.ap1 h2 {
     font-size: 30px;
 }
+
 .ap1 img {
     width: 100%;
     height: 50%;
@@ -199,38 +208,45 @@ header {
     border-radius: 20px;
     margin-bottom: 20px;
 }
+
 .ap2 img {
     width: 100%;
     height: 50%;
 }
-.ap2 h2{
+
+.ap2 h2 {
     font-size: 30px;
 }
-.ap3{
+
+.ap3 {
     width: 400px;
     height: 700px;
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
 }
+
 .ap3 img {
     width: 100%;
     height: 50%;
 }
-.ap3 h2{
+
+.ap3 h2 {
     font-size: 30px;
 }
-.ap4{
+
+.ap4 {
     width: 400px;
     height: 760px;
     background-color: rgba(128, 128, 128, 0.603);
     border-radius: 20px;
 }
+
 .ap4 img {
     width: 100%;
     height: 50%;
 }
 
-.ap4 h2{
+.ap4 h2 {
     font-size: 30px;
 }
 
@@ -250,9 +266,9 @@ footer img {
 }
 
 footer i {
-    color:burlywood;
+    color: burlywood;
     font-size: 30px;
-    
+
 }
 
 footer a {
@@ -260,20 +276,23 @@ footer a {
 }
 
 
-footer p:hover {  /*mudando a cor quando passa o mouse*/
+footer p:hover {
+    /*mudando a cor quando passa o mouse*/
     color: burlywood;
 }
 
-footer a:hover {  /*mudando a cor quando passa o mouse*/
+footer a:hover {
+    /*mudando a cor quando passa o mouse*/
     color: burlywood;
 }
 
-footer h2:hover {   /*mudando a cor quando passa o mouse*/
+footer h2:hover {
+    /*mudando a cor quando passa o mouse*/
     color: burlywood;
 }
 
 /*Google maps sombra*/
 .div-iframe:hover {
-box-shadow: 10px 10px 20px  brown ;
-transition: 0.8s;
+    box-shadow: 10px 10px 20px brown;
+    transition: 0.8s;
 }

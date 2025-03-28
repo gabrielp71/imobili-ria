@@ -59,7 +59,7 @@ header {
 
 .section-01 {
     padding: 200px;
-    background-image: url(imagens/casa02.jpg);
+    background-image: url(imagens/casa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@ header {
 }
 
 .section-02 div:hover {
-    box-shadow: 10px 10px 20px brown; /*sombra da caixa quando passar o mouse*/
+    box-shadow: 10px 10px 20px white; /*sombra da caixa quando passar o mouse*/
     transition: 0.8s; /*velocidade da trasição de cores*/
 
 
@@ -168,7 +168,7 @@ header {
 }
 
 .section-03 div img:hover {
-    box-shadow: 10px 10px 20px brown; /*sombra da caixa quando passar o mouse*/
+    box-shadow: 10px 10px 20px white; /*sombra da caixa quando passar o mouse*/
     transition: 0.8s; /*velocidade da trasição de cores*/
 
 }
@@ -268,6 +268,6 @@ footer h2:hover {   /*mudando a cor quando passa o mouse*/
 
 /*Google maps sombra*/
 .div-iframe:hover {
-box-shadow: 10px 10px 20px  brown ;
+box-shadow: 10px 10px 20px  white ;
 transition: 0.8s;
 }

@@ -1,0 +1,74 @@
+/*estilização global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*estilizando a div que contem o formulario*/
+
+.div-form {
+    background-color: gold;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    margin-top: 80px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    margin-bottom: 5px; /*margem inferior*/
+    font-weight: bold; /*largura da fonte*/
+}
+
+
+
+.dombosco {
+
+    padding: 10px; /*espaçamento interno*/
+    margin-bottom: 15px; /*espaçamento inferior dos input*/
+    font-size: 16px;  /*tamanho da letra*/
+    border-radius: 5px; /*bordas arredondadas*/
+    border: 2px solid red; /*inserindo bordas nos input*/
+    
+}
+
+.btn-form {
+    background-color: aquamarine; /*cor de fundo do botão*/
+    color: white; /*cor da letra*/
+    padding: 10px; /*espaçamento interno*/
+    border: none; /*bordar = nenhuma/sem borda*/
+    border-radius: 5px; /*arredondamento do botão*/
+    font-size: 16px; /*tamanho da letra*/
+    cursor: pointer; /*tipo de cursor do mouse*/
+
+
+}
+
+
+.btn-form:hover {
+    background-color: blueviolet;
+    transition: 0,8s;
+}
+
+
+h2, p {
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
