@@ -8,24 +8,37 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+
+
+
     <div class="div-form">
     <form action="">
+        
 
-<h2>Entre e Cadastra-se</h2>
+        <img src="imagens/icone02.jpg" alt="icone" class="img">
+<h2>Entre e Acesse</h2>
 
 <p>Conheça as nossas ofertas e descontos exclusivos para clientes da GB Imobiliária.</p>
 
         <label for="input-email">EMAIL</label>
-        <input type="email" class="input-email dombosco" id="input-email" name="input-email" placeholder="insira seu e-mail"> <br>
+        <input type="email" class="input-email dombosco" id="input-email" name="input-email" placeholder="insira seu e-mail" required> <br>
 
 
         <label for="input-password">SENHA</label>
-        <input type="password" class="input-password dombosco" id="input-password" name="input-password" placeholder="digite sua senha"> <br>
+        <input type="password" class="input-password dombosco" id="input-password" name="input-password" placeholder="digite sua senha" required> <br>
 
-        <input type="submit" value="Cadastre-se" class="btn-form">
+        <a href="form2.html" class="acr">
+            <p>Não tem login? Cadastra-se</p>
+        </a>
+
+
+
+        <input type="submit" value="Entrar" class="btn-form">
 
     </form>
 </div>
+
+<!-- required so permite "entrar" se as informações tiverem preenchidas so nos input que vao receber informação -->
 
 <!-- placeholder nome que fica dentro da caixa onde digita as info -->
 

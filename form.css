@@ -4,8 +4,16 @@
     padding: 0;
 }
 
+.img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
-    background-color: burlywood;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,12 +51,12 @@ label {
     margin-bottom: 15px; /*espaçamento inferior dos input*/
     font-size: 16px;  /*tamanho da letra*/
     border-radius: 5px; /*bordas arredondadas*/
-    border: 2px solid red; /*inserindo bordas nos input*/
+    border: 2px solid white; /*inserindo bordas nos input*/
     
 }
 
 .btn-form {
-    background-color: aquamarine; /*cor de fundo do botão*/
+    background-color: black; /*cor de fundo do botão*/
     color: white; /*cor da letra*/
     padding: 10px; /*espaçamento interno*/
     border: none; /*bordar = nenhuma/sem borda*/
@@ -61,7 +69,7 @@ label {
 
 
 .btn-form:hover {
-    background-color: blueviolet;
+    background-color: gray;
     transition: 0,8s;
 }
 
@@ -71,4 +79,8 @@ h2, p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     text-align: center;
+}
+
+.acr {
+    color: black;
 }
