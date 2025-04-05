@@ -15,6 +15,7 @@ header {
 header img {
     width: 300px;
     height: auto;
+    
 }
 
 header button {
@@ -32,16 +33,13 @@ header button:hover {
     border-radius: 5px;
 }
 
-
-/*background: liner-gradient */
+/* background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/...); */
 
 .section-01 {
-    background-image: url(imagens/tenis.png);
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(imagens/feet-1840619_1280.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-
     padding: 200px;
 
 }
