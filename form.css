@@ -7,10 +7,17 @@
 .img {
     height: 100px;
     width: 100px;
+    
+}
+
+/*deixando a img no centro*/
+.img-form {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 body {
     background-color: black;
